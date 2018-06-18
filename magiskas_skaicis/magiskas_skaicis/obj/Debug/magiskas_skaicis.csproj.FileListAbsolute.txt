@@ -1,0 +1,7 @@
+C:\Users\Jurate\Desktop\c#\2018-06-18\magiskas_skaicis\magiskas_skaicis\obj\Debug\magiskas_skaicis.csproj.CoreCompileInputs.cache
+C:\Users\Jurate\Desktop\c#\2018-06-18\magiskas_skaicis\magiskas_skaicis\bin\Debug\magiskas_skaicis.exe.config
+C:\Users\Jurate\Desktop\c#\2018-06-18\magiskas_skaicis\magiskas_skaicis\bin\Debug\magiskas_skaicis.exe
+C:\Users\Jurate\Desktop\c#\2018-06-18\magiskas_skaicis\magiskas_skaicis\bin\Debug\magiskas_skaicis.pdb
+C:\Users\Jurate\Desktop\c#\2018-06-18\magiskas_skaicis\magiskas_skaicis\obj\Debug\magiskas_skaicis.exe
+C:\Users\Jurate\Desktop\c#\2018-06-18\magiskas_skaicis\magiskas_skaicis\obj\Debug\magiskas_skaicis.pdb
+C:\Users\Jurate\Desktop\c#\2018-06-18\magiskas_skaicis\magiskas_skaicis\obj\Debug\magiskas_skaicis.csprojAssemblyReference.cache
