@@ -11,6 +11,8 @@ namespace MinuLaukas
 {
     class Program
     {
+        
+
         static void Main(string[] args)
         {
             Console.CursorVisible = false;
@@ -19,8 +21,8 @@ namespace MinuLaukas
             Ekranas.PrintWindow();
 
             GameRender Zaidimas = new GameRender();
-            
-            if (Ekranas.Valdymas() == 1)
+            bool zaisti = Ekranas.Valdymas();
+            if (zaisti)
             {
                 Zaidimas.PrintZaidimas();
             }

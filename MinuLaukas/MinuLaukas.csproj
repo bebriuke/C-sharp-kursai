@@ -47,6 +47,7 @@
     <Compile Include="Game\GameRender.cs" />
     <Compile Include="MyMeniuWindow\MyMeniu.cs" />
     <Compile Include="MyMeniuWindow\MyWindow.cs" />
+    <Compile Include="MyMeniuWindow\MyWinWindow.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -12,6 +12,7 @@ namespace MinuLaukas.Game
     {
         private MyWindow Langas = new MyWindow(0, 0, 28, 110, '%', "");
         private MyGameData Zaidimas = new MyGameData();
+        //private bool darZaidziam = true;
 
         public GameRender()
         {
@@ -23,15 +24,14 @@ namespace MinuLaukas.Game
             Langas.PrintWindow('%');
             Console.SetCursorPosition(20, 3);
             Console.Write("Žaidimas prasidėjo");
-            // Console.WriteLine();
+             // Console.WriteLine();
             Console.SetCursorPosition(20, 6);
             Zaidimas.MinuIsdestymas();
             Zaidimas.Skaiciavimai();
             Zaidimas.PrintArray();
             //Zaidimas.PrintTuscia();
+            Zaidimas.Valdymas(0, 0);
             
-
-            Zaidimas.Valdymas();
 
             Console.ReadKey();
         }

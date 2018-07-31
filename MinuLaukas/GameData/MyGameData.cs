@@ -13,6 +13,7 @@ namespace MinuLaukas.GameData
         private static int size = 10; //kvadrato krastines ilgis
         private CellData[,] MineSweeper;
         private int kiekis;
+        private bool zaidimoPabaiga = false;
 
 
         public MyGameData()
@@ -145,18 +146,20 @@ namespace MinuLaukas.GameData
         }
  */
 
-        public void Valdymas()
+        public void Valdymas(int i, int j)
         {
-            int i = 0;
-            int j = 0;
-            Console.SetCursorPosition(j * 4 + 20, i * 2 + 6);
-            if (MineSweeper[i, j].mode == false) Console.Write('@');
+            
+            //Console.SetCursorPosition(j * 4 + 20, i * 2 + 6);
+            // if (MineSweeper[i, j].mode == false) Console.Write('@');
 
             ConsoleKeyInfo kb = Console.ReadKey();
             while (kb.Key != ConsoleKey.Enter)
             {
                 switch (kb.Key)
                 {
+                    case ConsoleKey.Spacebar:
+                        ZymekVelevele(i, j);
+                        break;
                     case ConsoleKey.LeftArrow:
                         if (j > 0)
                         {
@@ -199,17 +202,37 @@ namespace MinuLaukas.GameData
         }
 
 
+        public void ZymekVelevele(int i, int j)
+        {
+           if (MineSweeper[i, j].mode == false)
+           {
+                if (MineSweeper[i, j].velevele == false)
+                {
+                    MineSweeper[i, j].velevele = true;
+                    Console.SetCursorPosition(20 + j * 4, 6 + i * 2);
+                    Console.Write('+');
+                }
+                else
+                {
+                    MineSweeper[i, j].velevele = false;
+                    Console.SetCursorPosition(20 + j * 4, 6 + i * 2);
+                    Console.Write('@');
+                }
+           }
+        }
+
+
         public void ZenkluPasikeitimas(int oldi, int oldj, int i, int j)
         {
-            if (MineSweeper[oldi, oldj].mode == false)//
+            if (MineSweeper[oldi, oldj].mode == false && MineSweeper[oldi, oldj].velevele == false)//
             {
                 Console.SetCursorPosition(20+oldj*4, 6+oldi*2);
                 Console.Write('%');
             }
-            
+
             if (MineSweeper[i, j].mode == false)//
             {
-                Console.SetCursorPosition(20+j*4, 6+i*2);
+                Console.SetCursorPosition(20 + j * 4, 6 + i * 2);
                 Console.Write('@');
             }
         }
@@ -218,7 +241,7 @@ namespace MinuLaukas.GameData
         public void Atverk(int i, int j)
         {
             
-            MyWindow LoseWindow = new MyWindow(10, 5, 15, 50, '*', "PRALAIMĖJAI!");
+            MyWindow LoseWindow = new MyWindow(50, 5, 15, 50, '*', "PRALAIMĖJAI!");
             MyWindow WinWindow = new MyWindow(10, 5, 15, 50, '!', "Laimėjai! Valio!");
 
            
@@ -229,8 +252,10 @@ namespace MinuLaukas.GameData
                 Console.SetCursorPosition(j*4+20, i*2+6);
                 if (MineSweeper[i, j].value == CellState.mina)
                 {
-                    // LoseButton.PrintWindow('*');
-                    Console.Write('#');
+                    LoseWindow.PrintWindow('*');
+                    zaidimoPabaiga = true;
+                    //Console.Write('#');
+
                 }
                 else if (MineSweeper[i, j].value == CellState.skaicius)
                 {
@@ -244,10 +269,14 @@ namespace MinuLaukas.GameData
                 if (atvertiLangeliai == size*size)
                 {
                     WinWindow.PrintWindow('!');
+                    zaidimoPabaiga = true;
                 }
             }
-            
-            Valdymas();
+
+            if (zaidimoPabaiga == false)
+            {
+                Valdymas(i, j);
+            }
 
         }
 

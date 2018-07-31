@@ -14,14 +14,16 @@ namespace MinuLaukas.GameData
         public bool mode; // atidengta - 1 /uždengta - 0//bool
         public CellState value; // tuscia; mina; skaicius; 
         public char number;  // O 1 2 3 4 5 6 7 8 # - matomas simbolis
+        public bool velevele; 
         
 
-        public CellData(bool atidengta = false, CellState reiksme = CellState.tuscia, char num = 'O')
+        public CellData(bool atidengta = false, CellState reiksme = CellState.tuscia, char num = 'O', bool flag = false)
         {
             
             mode = atidengta;
             value = reiksme;
             number = num;
+            velevele = flag;
         }
 
     }
