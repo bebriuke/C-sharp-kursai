@@ -1,0 +1,7 @@
+C:\Users\Jurate\Desktop\c#\Baigiamasis darbas\MinuLaukas\MinuLaukas\bin\Debug\MinuLaukas.exe.config
+C:\Users\Jurate\Desktop\c#\Baigiamasis darbas\MinuLaukas\MinuLaukas\bin\Debug\MinuLaukas.exe
+C:\Users\Jurate\Desktop\c#\Baigiamasis darbas\MinuLaukas\MinuLaukas\bin\Debug\MinuLaukas.pdb
+C:\Users\Jurate\Desktop\c#\Baigiamasis darbas\MinuLaukas\MinuLaukas\obj\Debug\MinuLaukas.csprojAssemblyReference.cache
+C:\Users\Jurate\Desktop\c#\Baigiamasis darbas\MinuLaukas\MinuLaukas\obj\Debug\MinuLaukas.csproj.CoreCompileInputs.cache
+C:\Users\Jurate\Desktop\c#\Baigiamasis darbas\MinuLaukas\MinuLaukas\obj\Debug\MinuLaukas.exe
+C:\Users\Jurate\Desktop\c#\Baigiamasis darbas\MinuLaukas\MinuLaukas\obj\Debug\MinuLaukas.pdb
