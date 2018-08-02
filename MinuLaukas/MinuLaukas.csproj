@@ -32,6 +32,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -45,6 +48,7 @@
     <Compile Include="GameData\CellData.cs" />
     <Compile Include="GameData\MyGameData.cs" />
     <Compile Include="Game\GameRender.cs" />
+    <Compile Include="MyMeniuWindow\Dydis.cs" />
     <Compile Include="MyMeniuWindow\MyMeniu.cs" />
     <Compile Include="MyMeniuWindow\MyWindow.cs" />
     <Compile Include="MyMeniuWindow\MyWinWindow.cs" />
@@ -53,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
