@@ -5,3 +5,6 @@ C:\Users\Jurate\Desktop\c#\Baigiamasis darbas\MinuLaukas\MinuLaukas\obj\Debug\Mi
 C:\Users\Jurate\Desktop\c#\Baigiamasis darbas\MinuLaukas\MinuLaukas\obj\Debug\MinuLaukas.csproj.CoreCompileInputs.cache
 C:\Users\Jurate\Desktop\c#\Baigiamasis darbas\MinuLaukas\MinuLaukas\obj\Debug\MinuLaukas.exe
 C:\Users\Jurate\Desktop\c#\Baigiamasis darbas\MinuLaukas\MinuLaukas\obj\Debug\MinuLaukas.pdb
+C:\Users\Jurate\Desktop\c#\Baigiamasis darbas\MinuLaukas\MinuLaukas\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Jurate\Desktop\c#\Baigiamasis darbas\MinuLaukas\MinuLaukas\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Jurate\Desktop\c#\Baigiamasis darbas\MinuLaukas\MinuLaukas\obj\Debug\MinuLaukas.csproj.CopyComplete
