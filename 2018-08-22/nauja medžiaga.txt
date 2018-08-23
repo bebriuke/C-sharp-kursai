@@ -1,0 +1,47 @@
+Dël general dalykø, jums reikëtø pasiskaityti kaip pasileisti lokaliai serverá
+
+Programa, kuri reikalinga: http://www.ampps.com/downloads
+ampps.com
+WAMP, MAMP and LAMP Stack : Install PHP, Apache, Perl, MySQL - Downloads
+AMPPS is a cross platform AMP stack. It has MAMP, WAMP and LAMP stacks
+Ðità programà reikia parsisiøsti ir ásiraðyti, jos tikslas, kad ji pakuria virtualø serverá
+ir tada pabandyti ásidiegti wordpress turinio valdymo sistemà: https://codex.wordpress.org/Installing_WordPress
+Suprantu, kad informacijos maþai èia yra, bet serverá pasikurti reikës, o wordpress pagal dokumentacijà tikëtina, kad pavyks pakurti irgi
+Serveris AMPPS reikalingas, kad veiktø mums PHP kodai, kuriuos naudosime ir vëliau jo reikës ir javascriptui
+Po ðitø, siûlau paskaityti apie https://sass-lang.com/ mes já naudosime kai kompiliuosime CSS ið bootstrap ir kitiems dalykams, tai pasiþiûrëti kaip jis veikia, kaip já pasileisti, pabandykite paþaisti
+sass-lang.com
+Sass: Syntactically Awesome Style Sheets
+Syntatically Awesome Style Sheets
+P.S kol pasileidau sass’à pirmà kartà trukau dienà laiko :DDDD
+
+
+Deivydas [9:23 PM]
+https://css-tricks.com/snippets/css/clear-fix/
+https://www.w3schools.com/cssref/css_selectors.asp
+
+
+https://zellwk.com/blog/rem-vs-em/
+
+
+https://css-tricks.com/almanac/properties/d/display/
+https://css-tricks.com/absolute-positioning-inside-relative-positioning/
+https://css-tricks.com/almanac/properties/p/position/
+https://css-tricks.com/box-sizing/
+Plaèiau apie formas galima paskaityti:  http://www.w3schools.com/html/html_forms.asp
+
+Papildomai: http://www.w3schools.com/tags/tag_form.asp
+
+Kaip buildinti graþesnias formas: https://css-tricks.com/tips-for-creating-great-web-forms/
+
+Kaip stilizuoti checkbox, radio mygtukus: http://www.hongkiat.com/blog/css3-checkbox-radio/
+
+
+HTML5 tag'ai (ir prikabintas pavyzdys HTML su nuorodomis)
+Plaèiau apie HTML5 elementus skaitykite èia - http://html5doctor.com/
+
+Prikabintas pavyzdys jums yra svarbus tik dël HTML struktûros.
+https://line25.com/articles/10-html-tag-crimes-you-really-shouldnt-commit
+
+nusibekapinau biski linkus, tai sumeciau jums, kad bûtø galima paskaityti :smile:
+Ryt galësiu pakomentuoti placiau apie linkus, kas ten yra
+

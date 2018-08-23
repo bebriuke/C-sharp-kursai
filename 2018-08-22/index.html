@@ -1,0 +1,112 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Formos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<div class="container">
+  <form action="#" method="GET">
+    <label>
+        Jūsų vardas:
+        <input type="text" name="vardas" value="" placeholder="Jūsų vardas">  <!-- unikalus name || placeholder palaikomas tik nuo explorer 7-->
+    </label>
+
+    <label>
+        Jūsų pavardė:
+        <input type="text" name="pavarde" value="" placeholder="Jūsų pavardė">  <!-- unikalus name || placeholder palaikomas tik nuo explorer 7-->
+    </label>
+<br> <br>
+
+
+    <label> Slaptažodis: </label>
+
+    <input type="password" name="slaptazodis" value="" placeholder="Surink slaptažodį">
+
+    <div class="pomegiai-checkbox">
+      <label>
+        <input type="checkbox" name="pomegiai" value="Žvejyba"> Žvejyba <br>
+      </label>
+      <label>
+        <input type="checkbox" name="pomegiai" value="Tapyba"> Tapyba <br>
+      </label>
+      <label>
+        <input type="checkbox" name="pomegiai" value="Daryba"> Daryba <br>
+      </label>
+      <label>
+        <input type="checkbox" name="pomegiai" value="kažkas"> Kažkas <br>
+      </label>
+    </div>
+
+
+    <div class="iprociai-checkbox">
+      <label>
+        <input type="checkbox" name="iprociai2" value="Žvejyba22"> Žvejyba22 <br>
+      </label>
+      <label>
+        <input type="checkbox" name="iprociai2" value="Tapyba22"> Tapyba22 <br>
+      </label>
+      <label>
+        <input type="checkbox" name="iprociai2" value="Daryba22"> Daryba22 <br>
+      </label>
+      <label>
+        <input type="checkbox" name="iprociai2" value="kažkas22"> Kažkas22 <br>
+      </label>
+    </div>
+
+    <div class="iprociai-radio">
+      <label> <!-- atkreipk dėmesį į name -->
+        <input type="radio" name="iprociai3" value="Žvejyba33"> Žvejyba33 <br>
+      </label>
+      <label>
+        <input type="radio" name="iprociai3" value="Tapyb33"> Tapyba33 <br>
+      </label>
+      <label>
+        <input type="radio" name="iprociai5" value="Daryba33"> Daryba33 <br>
+      </label>
+      <label>
+        <input type="radio" name="iprociai5" value="kažkas33"> Kažkas33 <br>
+      </label>
+    </div>
+
+
+    <div class="pomegiai-checkbox">
+      <select name="pastomatai">
+        <option value="terminalas_000"> Pasirink terminalą</option>
+        <optgroup label="Vilnius">
+          <option value="terminalas_001"> Terminalo 1 pavadinimas</option>
+          <option value="terminalas_002"> Terminalo 2 pavadinimas</option>
+          <option value="terminalas_003"> Terminalo 3 pavadinimas</option>
+          <option value="terminalas_004" > Terminalo 4 pavadinimas</option>
+          <option value="terminalas_005" > Terminalo 5 pavadinimas</option>
+        </optgroup>
+
+
+        <optgroup label="Kaunas">
+          <option value="terminalas_001"> Terminalo 1 pavadinimas</option>
+          <option value="terminalas_002"> Terminalo 2 pavadinimas</option>
+          <option value="terminalas_003"> Terminalo 3 pavadinimas</option>
+        </optgroup>
+      </select>
+    </div>
+
+
+    <textarea name="zinute" placeholder="Jūsų tekstas" ></textarea>
+
+
+    <input type="submit" value="Susisiekti">
+
+    <br> <br> <br>
+
+    <div class="checkbox">
+      <input type="checkbox" id="checkbox_1">
+      <label for="checkbox_1">Bandomasis Checkbox</label>
+    </div>
+
+</div>
+
+
+</body>
+
+</html>
